@@ -1,10 +1,15 @@
 {
   "name": "recepiesapp",
   "version": "1.0.0",
+  "engines": {
+    "node": "16.x"
+  },
   "description": "apis for Social Recepies application ",
   "main": "./src/index.ts",
   "scripts": {
-    "dev": "nodemon"
+    "dev": "nodemon",
+    "start": "node ./dist/index.js",
+    "build": "tsc --build && ls ."
   },
   "author": "HosamAlden",
   "license": "ISC",
